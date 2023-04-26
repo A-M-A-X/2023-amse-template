@@ -16,8 +16,8 @@ pipeline AirportsPipeline {
 	block AirportsTextFileInterpreter oftype TextFileInterpreter {
 
 	}
-	
-    pipe {
+
+	pipe {
 		from: AirportsTextFileInterpreter;
 		to: AirportsCSVInterpreter;
 	}

@@ -5,7 +5,7 @@
 pipeline AirportsPipeline {
 
 	block AirportsExtractor oftype HttpExtractor {
-		url: "https://opendata.rhein-kreis-neuss.de/explore/dataset/rhein-kreis-neuss-flughafen-weltweit/download/?format=csv";
+		url: "https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-flughafen-weltweit/exports/csv";
 	}
 
 	pipe {

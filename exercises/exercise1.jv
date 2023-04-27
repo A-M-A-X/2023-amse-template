@@ -57,6 +57,6 @@ pipeline AirportsPipeline {
 
 	block AirportsLoader oftype SQLiteLoader {
 		table: "airports";
-		file: "airports.db"; 
+		file: "./airports.sqlite"; 
 	}
 }
